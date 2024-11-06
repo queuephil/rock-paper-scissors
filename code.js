@@ -28,7 +28,7 @@ function playRound() {
 
     if(computerChoice == humanChoice) {
         // console.log("draw");
-        divRound.textContent = "draw";
+        divRound.textContent = "Draw! " + computerChoice + " vs. " + humanChoice;
     }
     else if(
         ((computerChoice == "rock") && (humanChoice == "paper")) || 
